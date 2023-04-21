@@ -12,9 +12,9 @@ Welcome to PyCon 2023 report's documentation!
 
    us/index
 
-Indices and tables
-==================
+参考
+====
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* [Sphinx documentation](https://www.sphinx-doc.org/ja/master)
+* [Furo](https://pradyunsg.me/furo/)
+* [MyST Parser](https://myst-parser.readthedocs.io/en/latest/)
