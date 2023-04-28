@@ -86,3 +86,20 @@ cls = type(self)
 * なんか字幕との掛け合いが始まる。おもしろい
 * emscripten
  * https://pypercard.readthedocs.io/en/latest/
+
+```{admonition} コラムタイトルを書く(yoshida担当)
+APACブース
+```
+
+## Open Space
+
+* [Python Bytes Podcast](https://pythonbytes.fm/)の公開収録を見学
+
+## LT
+
+* tox 4の更新情報
+  * アウトプットがカラフルになった
+  * Python 2.7 drop
+* Sourcery
+  * https://sourcery.ai/
+* Zen of Pythonのはなし
