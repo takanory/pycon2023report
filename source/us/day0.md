@@ -58,7 +58,7 @@ Squatters Pub Brewery
 ```
 
 Newcomer Orientationではスタッフからどのように振る舞うとよいかという話がされました。
-いろいろな人に話しかけようとか、輪になって話すときは1人分のスペースを空けよう（パックマンルール）などの説明がされました。
+いろいろな人に話しかけようといった話がされていました。
 
 ```{figure} images/newcomer.jpg
 :width: 600
