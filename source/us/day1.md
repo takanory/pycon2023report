@@ -107,7 +107,7 @@ PyCon JPからは日本らしく紅白の折り紙でAPACで開催される主�
 APAC地域やそれ以外の国の方含めブースに良く訪問があり、PyCon USに出展してアピールできた事は
 とても良かったと思います。
 
-![PyCon APACブースの様子](column-images-booth/boothimageall.jpg "ブース出展の様子")
+![PyCon APACブースの様子](column-images-booth/boothimageall2.jpg "ブース出展の様子")
 
 ```
 
