@@ -87,8 +87,28 @@ cls = type(self)
 * emscripten
  * https://pypercard.readthedocs.io/en/latest/
 
-```{admonition} コラムタイトルを書く(yoshida担当)
-APACブース
+```{admonition} PyCon APACブース
+このコラムは吉田([@koedoyoshida](https://twitter.com/koedoyoshida))がお届けします。
+
+今回はPyCon APACブースをPyCon USで初出展しました。
+PyCon APAC自体は2010年からAPAC地域で持ち回りで開催している
+国際的なPyConイベントとなりますが、イベント自体は各国のPyConのオーガナイザーが
+開催しているため、いままではあまり共同ではアピールはしてきませんでした。
+今回ブース出展することも有り、共通ロゴやAPAC共通のWebサイト[PyCon APAC Organizers](https://pycon.asia/)を作成しました。
+
+また、APACをアピールできる配布物や出展物を各自持ち寄りました。
+PyCon JPからは日本らしく紅白の折り紙でAPACで開催される主要なPyConの紹介とwebサイトを紹介する折り紙など準備し持ち込みました。
+
+この折り紙は鶴型に折ることが出来るようになっていて、APACの出展メンバーや
+ブース訪問の参加者の方にAPACの紹介を兼ねてそのまま渡したり、英語での折り方ガイド
+をみせつつ、一緒に鶴を折ってそれを持ち帰ってもらったり出来、非常に好評でした。
+
+また、PyCon US開催に合わせて[PyCon APAC 2023 CFP(Call for proposal)サイト](https://pretalx.com/pyconapac2023/cfp)をオープン出来ましたので、そのアピール用の資料等も現地で作成、印刷し配布できました。
+APAC地域やそれ以外の国の方含めブースに良く訪問があり、PyCon USに出展してアピールできた事は
+とても良かったと思います。
+
+![PyCon APACブースの様子](column-images-booth/boothimageall.jpg "ブース出展の様子")
+
 ```
 
 ## Open Space
