@@ -84,39 +84,58 @@ Ned Batchelder氏
 筆者もこのトークを「わかるなー、確かにあるなー」と思って聞いていました。
 自分自身、他の人とやりとりするときに「よくない対話」をしないように気をつけようと思いました。
 
-## Inside CPython 3.11's new specializing, adaptive interpreter.
+## Making CPython 3.11 Fast - Inside Python's new specializing, adaptive interpreter.
 
-* Brandt Bucher
-* スライドの日付が間違っているのを指摘されて、その場で直すハプニング
-* 6年前からPythonを使い始めた。今はMSのCPython Fasterチーム
-* バイトコードがどう変わったか
-  * `dis.sid()` で adaptive=Trueを付けると培地コードが変わる
-  * `LOAD_ATTR_INSTANCE_VALUE` 前に読んだときと乾いてなければ速く動く
-  * `BINARY_OP_ADD_FLOAT`
-* `show_cashes=True` でキャッシュの状況が見れる
-* `specialist --blue`
-  * https://github.com/brandtbucher/specialist
+* スピーカー: Brandt Bucher
+* スライド: [inside_cpython_311s_new_specializing_adaptive_interpreter.pdf](https://github.com/brandtbucher/brandtbucher/blob/master/2023/04/21/inside_cpython_311s_new_specializing_adaptive_interpreter.pdf)
 
-```python
-y = dy + self.py
-cls = type(self)
+キーノートのあとは5つのトラックに分かれてトークがあります（うち1つはスペイン語・ポルトガル語）。
+ここではBrandt Bucher氏によるCPython 3.11の中身についてのトークを紹介します。
+写真を見てもらうとわかりますが、スライドの日付が2022年となっており「スライドが古いよ！」と会場から声がかかり、その場で日付を直していました。
+
+```{figure} images/brandt.jpg
+:width: 600
+
+Brandt Bucher氏
 ```
 
-* CPython 3.12でバイトコードが変わる
-  * 3.12でスペしアライズされたバイトコードが増えた
-  * キャッシュが減る
-* [PEP 659 – Specializing Adaptive Interpreter | peps.python.org](https://peps.python.org/pep-0659/)
+Brandt氏は6年前からPythonを使い始め、現在はMicrosoftのFaster CPythonチームに所属しています。
+このトークではCPythonでバイトコードでどのように効率化されたかについて紹介していました。
 
-## Build Yourself a PyScript
+最初に以下のクラスのサンプルコードを提示し、[dis](https://docs.python.org/ja/3/library/dis.html)モジュールの`dis()`関数でバイトコードを取得します。
 
-* Nicholas H.Tollervey, Paul Everitt
-* お互いを自己紹介
-* pyscriptの基本的な書き方を説明
-* pyscript.jsを見せながら、どうなっているかを説明
-* MicroPythonでPyScriptを動かす?
-* なんか字幕との掛け合いが始まる。おもしろい
-* emscripten
- * https://pypercard.readthedocs.io/en/latest/
+```python
+class Point:
+    def __init__(self, x: float, y: float) -> None:
+         self.x = x
+         self.y = y
+
+    def shifted(self, dx: float, dy: float) -> typing.Self:
+         x = dx + self.x
+         y = dy + self.y
+         cls = type(self)
+         return cls(x, y)
+```
+
+`dis()`関数にPython 3.11から加わった引数`adaptive=True`を指定すると、特殊なバイトコードを出力します。
+すると`sel.y`で属性の値を取得する呼び出すバイトコードが`LOAD_ATTR`から`LOAD_ATTR_INSTANCE_VALUE`に変わるなど、変化があります。
+`LOAD_ATTR_INSTANCE_VALUE`は、クラスが前にアクセスしたときから変わっていない場合に、値の返却が速くなります。
+
+他にも`dy + self.y`の部分が`BINARY_OP`から`BINARY_OP_ADD_FLOAT`に変わります。
+これは、左右がどちらも`float`の場合に使用されます。
+このように実行時に効率的なバイトコードが使用できるかを確認し、バイトコードを切り替えることで処理の高速化を図っているそうです。
+
+また、[specialist](https://pypi.org/project/specialist/)というライブラリが紹介されました。
+`$specialist hoge.py`と実行すると、Pythonコードのどの場所が上記の特殊なバイトコードを使用して最適化されるかを見た目で表現するそうです。
+
+```{figure} images/specialist.png
+:width: 600
+
+specialistの実行イメージ
+```
+
+CPython 3.12でもさらにバイトコードは改善され、特殊なバイトコードがさらに増えるそうです。
+今後も継続的に高速化されていくCPythonに注目です。
 
 ```{admonition} PyCon APACブース
 このコラムは吉田([@koedoyoshida](https://twitter.com/koedoyoshida))がお届けします。
