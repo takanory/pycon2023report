@@ -10,6 +10,8 @@ Pythonは新機能をPEP（ペップ：Python Enhancement Proposal）という�
 その採用不採用を判断する中心となるのがSteering Councilで、毎年選挙によってメンバーが決定しています。
 この日は、2023年のSteering Councilメンバーから、Python 3.12の新機能や今後のPythonの方向性について語られました。
 
+(もうちょっと内容を書く)
+
 ## PSF Community Lunch
 
 ランチタイムは、通常のランチではなく**PSF Community Lunch**に参加しました。
@@ -58,7 +60,7 @@ Webブラウザで動いているPyScriptから、そのPCに接続している�
 PyScriptからLEGOを動かすデモ
 ```
 
-```{admonition} PyCon JP TVインタビュー
+````{admonition} PyCon JP TVインタビュー
 
 このコラムは寺田 学(@terapyon)がお届けします。
 
@@ -69,7 +71,11 @@ PyScriptからLEGOを動かすデモ
 
 コミュニティ関係者へのインタビューは、カンファレンスチェアーや PSF 担当者、APAC 地域のカンファレンスオーガナイザーといったコミュニティ関連の方々からメッセージを頂きました。またスポンサーブースの担当者には計 9 社の方々からメッセージを頂きました。
 
-![PyLadiesブースのインタビューの様子](column-images/pyconjptv-interview-pyladies.jpg "PyLadiesブースのインタビューの様子")
+```{figure} column-images/pyconjptv-interview-pyladies.jpg
+:width: 600
+
+PyLadiesブースのインタビューの様子
+```
 
 動画のリンクは以下のとおりです。
 
@@ -80,7 +86,7 @@ PyScriptからLEGOを動かすデモ
 
 この動画は毎月 Live 放送している[PyCon JP TV](https://tv.pycon.jp)の活動の一環として取りまとめました。
 また、[2023 年 5 月 12 日の Live 放送](https://www.youtube.com/live/7-UjyXNriwk)で、撮影時のエピソードも交えながらお届けしました。ご覧になっていただくと PyCon US の雰囲気がより分かるかと思います。
-```
+````
 
 ## ライトニングトーク
 
@@ -118,7 +124,7 @@ Microsoft提供のキーボードと、PostgreSQL提供の編みぐるみ
 それを見て「来年は日本から抹茶のキットカットを持っていくとウケるかも」といった話を日本メンバーでしていました。
 
 ```{figure} images/auction.jpg
-:width: 400
+:width: 600
 
 オークションの様子
 ```
