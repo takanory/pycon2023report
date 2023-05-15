@@ -8,9 +8,28 @@
 
 Pythonは新機能をPEP（ペップ：Python Enhancement Proposal）というドキュメントで提案します。
 その採用不採用を判断する中心となるのがSteering Councilで、毎年選挙によってメンバーが決定しています。
-この日は、2023年のSteering Councilメンバーから、Python 3.12の新機能や今後のPythonの方向性について語られました。
 
-(もうちょっと内容を書く)
+最初に[PEP 13 – Python Language Governance](https://peps.python.org/pep-0013/)によってSteering Councilという運営方法が決定しており、現在の5名のメンバーが紹介されました。
+Emily Morehouse、Gregory P. Smith、Pablo Galindo Salgado、Thomas Wouters、Brett Cannonの5名で、それぞれ1年、2年、3年、4年、5年目のメンバーです（偶然だそうです）。
+
+```{figure} images/council.jpg
+:width: 600
+
+Python Steering Councilメンバー
+```
+
+次にPython 3.12の新機能について説明がありました。新機能については[What's New In Python 3.12](https://docs.python.org/3.12/whatsnew/3.12.html)のページで確認できます。
+以下が主要な新機能として紹介されました。
+
+* Better f-strings：引用符をネストできるようになった
+* サブインタープリターごとのオプションGIL
+* 型パラメーターを指定する構文の改善
+* エラーメッセージの改善
+* distutilsの削除
+* 古いunittestのメソッドの削除
+* 文字列リテラルでエスケープシーケンスが無効な場合の警告
+
+細かい改善や古い機能の削除が主ですが、サブインタープリターごとのオプションGILが導入されることにより、パフォーマンスにどのような影響が出るのかも気になります。
 
 ## PSF Community Lunch
 

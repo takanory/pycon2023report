@@ -137,7 +137,7 @@ specialistの実行イメージ
 CPython 3.12でもさらにバイトコードは改善され、特殊なバイトコードがさらに増えるそうです。
 今後も継続的に高速化されていくCPythonに注目です。
 
-```{admonition} PyCon APACブース
+````{admonition} PyCon APACブース
 このコラムは吉田([@koedoyoshida](https://twitter.com/koedoyoshida))がお届けします。
 
 今回はPyCon APACブースをPyCon USで初出展しました。
@@ -157,9 +157,13 @@ PyCon JPからは日本らしく紅白の折り紙でAPACで開催される主�
 APAC地域やそれ以外の国の方含めブースに良く訪問があり、PyCon USに出展してアピールできた事は
 とても良かったと思います。
 
-![PyCon APACブースの様子](column-images-booth/boothimageall2.jpg "ブース出展の様子")
+```{figure} column-images-booth/boothimageall2.jpg
+:width: 600
 
+PyCon APACブースの様子
 ```
+
+````
 
 ## オープンスペース
 
@@ -189,6 +193,31 @@ PyCon US 2023ではカンファレンスの3日間毎日、1時間ごとにオ�
 冒頭に参加者の拍手があるのが、公開収録っぽい感じで面白いです。
 
 * [Episode #333 Live From PyCon - \[Python Bytes Podcast\]](https://pythonbytes.fm/episodes/show/333/live-from-pycon)
+
+
+## Eric Matthes氏との再会
+
+この日は出版社[No Starch Press](https://nostarch.com/)のブースで、書籍「Python Crash Course」のサイン会が行われていました。
+筆者は本書の日本語版（[必修編](https://gihyo.jp/book/2020/978-4-297-11570-8)、[実践編](https://gihyo.jp/book/2020/978-4-297-11572-2)）の翻訳者であり、PyCon US 2019年でEric氏にあいさつをしていました。
+
+今回も書籍を購入し、著者のEric Matthes（[@ehmatthes](https://twitter.com/ehmatthes)）氏にサインをしてもらいました。
+Eric氏も私のことを覚えていてくれており「日本語版無事出しましたよ」といった話をしました。
+
+```{figure} images/eric.jpg
+:width: 600
+
+著者のEric Matthes氏と筆者
+```
+
+Eric氏からのサインには「書籍を広めるための、（翻訳の）ハードワークありがとう」というメッセージが書かれていました。
+翻訳は大変でしたが、著者に直接感謝されるとやった甲斐があったなと感じます。
+
+```{figure} images/eric-sign.jpg
+:width: 600
+
+Eric Matthes氏からのサイン
+```
+
 
 ## ライトニングトーク
 
