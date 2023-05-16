@@ -118,9 +118,51 @@ O'Reillyが主催する[OSCON](https://en.wikipedia.org/wiki/O%27Reilly_Open_Sou
 
 ## Closing
 
-* Sprints, Lunch included
-* 2,257 / 2,159 badge printed
-  * 1,672 first time
-* 490 online
-* 110 on-site boluteer
+Day 3の最後はクロージングです。
+ChairのMariatta（[@mariatta](https://twitter.com/mariatta)）氏からPyCon US 2023について報告がありました。
+登録者数は2,257名、バッジを印刷した人が2,159名、初参加者は1,672名（77%）とのことで、初参加者がとても多いと感じました。
+参加者数はPyCon 2022よりは増えてますがCOVID-19以前の3,000名規模までは戻っていないようです。
 
+```{figure} images/stats.jpg
+:width: 600
+
+PyCon US 2023の参加者数
+```
+
+スポンサー収入は1,050,540.16 USD（約1億4300万円）とすごい金額です。
+また、PyLadies Auctionの寄付金額は35,746 USDA（約486万円）でした。
+
+そして最後に2024年、2025年の開催地ピッツバーグを紹介してイベントは終了しました。
+
+```{figure} images/closing.jpg
+:width: 600
+
+クロージングの様子
+```
+
+## Pythonアジアミーティング
+
+カンファレンスは終了しましたが、アジアのPythonコミュニティを管理する組織が作れないか、ということで意見交換をする会が開催されました。
+オープンスペースで提供されている会場を使用して、各国Pythonコミュニティの主催者が集まって意見交換をしました。
+
+ヨーロッパにある[EuroPython Society](https://www.europython-society.org/)などを参考にして、アジア地域のPyConを手動する組織が作れないかという議論を行いました。
+どのような形の組織がよいのか、資金管理などを考えるとどの国に本部を置くのがよいのかといった課題に対して意見交換が行われました。
+
+```{figure} images/python-asia.jpg
+:width: 600
+
+Pythonアジアミーティング
+```
+
+## 最後はピザとビール
+
+ミーティング終了後はどこでご飯を食べようかと思っていましたが、韓国チームの仕切りでピザの店に行きました。
+ウェイトレスさんがちょっとボケていて、頼んだものと違うビールが出てきたりしましたが「まぁそんなもんか」と思いつつ、みんなでの最後の夕食を楽しみました。
+
+```{figure} images/pizza-beer.jpg
+:width: 400
+
+最後はピザとビール
+```
+
+こうしてPyCon US 2023の3日間のカンファレンスが終わりました。
