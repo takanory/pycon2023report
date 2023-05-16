@@ -1,22 +1,25 @@
 # Day 3
 
-## Breakfast
+カンファレンス3日目（最終日）の様子をお届けします。
 
-* 食べた
+## ライトニングトーク
 
-## Lightning Talks
+朝はライトニングトークから始まります。
+3日目は夕方のライトニングトークはありません。
 
-* コミュニティLT
-  * PyCon APACも
-* PyZombis
-  * Brythonってはじめて知った https://brython.info/
-* palindrome
-  * コードを回分にする。面白い
-* ログインしてスクレイピング
-  * PyAutoGUI
-  * mssでスクリーンショット、easyocrでOCR
-  * thefuzzで文字列をチェック
-* Symplifying pandas
+最初に毎回恒例のコミュニティライトニングトークが行われました。
+このライトニングトークでは、各国のPython関連のイベントについて各主催者が紹介します。
+1イベントについて30秒〜1分程度でたくさんのイベントが紹介されました。
+今年日本で開催される[PyCon APAC 2023](https://2023-apac.pycon.jp/)についても、座長のSelina（[@selina787b](https://twitter.com/selina787b)）さんが登壇して発表しました。
+
+```{figure} images/apac.jpg
+:width: 600
+
+PyCon APAC 2023についての発表
+```
+
+他には[PyZombis](https://pyar.github.io/PyZombis/main/)というゾンビのためのPythonの教材の紹介
+がありました。この中で[Brython](https://brython.info/)というWebブラウザで動くPythonの処理系を使っているようです。Brythonははじめて知りました。
 
 ## Keynote: Margaret Mitchell
 
@@ -53,14 +56,65 @@
 
 ```
 
-## full-text search
+## Keynote: Carol Willing
 
-* DjangoとPostgreSQLで全文検索
-* django.contrib.postgressを入れる
-* tri-gramをSearchVectorで作成するらしい
-* 検索のランクとかも撮れるらしい
-* いろんなことができるっぽい
-* 日本語でもいい感じで動くかなぁ
+最後のキーノートはCarol Willing（[@WillingCarol](https://twitter.com/WillingCarol)）氏によるトークです。
+
+## Community Service Awards & Python Software Foundation Update
+
+ここではPSF（Python Software Foundation）のExecutive DirectorであるDeb Nicholson（[@baconandcoconut](https://twitter.com/baconandcoconut)）氏からCommunity Service Awardsの表彰とPSFの状況について報告がありました。
+[PSF Community Service Awards](https://www.python.org/community/awards/psf-awards/)はコミュニティに対して貢献した人を表彰する制度です。
+私が理事をしているPyCon JP Associationも2022年に表彰されています。
+
+* 参考：[PyCon JP Blog: PyCon US 2022でCommunity Service Awardsを受賞してきました](https://pyconjp.blogspot.com/2022/06/pyconjp-win-awards.html)
+
+今年は長年のPSF Board（理事会）の活動により、Naomi Ceder氏が**PSF Distinguished Service Awards**という特別な賞を受賞しました。
+
+```{figure} images/naomi.jpg
+:width: 600
+
+Deb Nicholson氏（左）とNaomi Ceder氏
+```
+
+## Guido van Rossum
+
+最後に特別ゲストとしてGuido van Rossum（[@gvanrossum](https://twitter.com/gvanrossum)）氏によるトークが行われました。
+トークの内容はPythonについてではなく、**PyConについての回顧録**でした。
+PyCon USは2003年に第1回が開催されましたが、それよりも前のPythonに関する集まりから話が始まります。
+1994年に初めてのPython Workshopが開催され、参加者は2、30人程度です。
+イベントは成功したようで、継続的にWorkshopが開催されます。
+
+以下のページで当時のPython Workshopの内容が確認できます。
+
+* [Annotated Agenda -- Python Workshop](https://legacy.python.org/workshops/1994-11/annotated.html)
+
+```{figure} images/guido.jpg
+:width: 600
+
+Guido van Rossum氏
+```
+
+4回目のPython Workshopで国際的なイベントとなり、100名ほどがカリフォルニア州リバモアに集まりました。
+このときからイベントの名称をInternational Python Conferenceとなりました。
+このイベントの記録は以下のページで参照できます。
+
+* [InternationalPythonConference - Python Wiki](https://wiki.python.org/moin/InternationalPythonConference)
+
+並行してPythonの非営利組織としてPython Software Associationを立ち上げる動きが出ました。
+その後2001年に法人化され、現在のPSFとなっていきます。
+
+International Python Conferenceは2003年が最後となります。
+O'Reillyが主催する[OSCON](https://en.wikipedia.org/wiki/O%27Reilly_Open_Source_Convention) 2003のなかの1トラックとして開催しました。
+
+そして2002年の年末にPerlコミュニティの主催者から電話があり、その内容は「Perlコミュニティのカンファレンスの会場をキャンセルしなければならない」というものでした。
+そして、その会場を予約し、2003年のPyCon USが開催されました。
+最初のPyConの記録は以下のページで参照できます。
+
+* [PyConDC2003 - Python Wiki](https://wiki.python.org/moin/PyConDC2003)
+
+最後にGuido氏から、PyConなどのイベントのChairは最もストレスの多い仕事であること、そして今までのChairへの感謝の言葉でトークは締めくくられました。
+
+当初から現在までPythonの中心にいるGuido氏にしか語れない、PyConの歴史についての興味深い回顧録でした。
 
 ## Closing
 
