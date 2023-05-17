@@ -31,7 +31,7 @@ PyCon US 2023 Webサイト
 
 * [世界最大のPythonカンファレンス「US PyCon 2019」レポート 記事一覧 | gihyo.jp](https://gihyo.jp/list/group/%E4%B8%96%E7%95%8C%E6%9C%80%E5%A4%A7%E3%81%AEPython%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9-US-PyCon-2019-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/news/report/01/us-pycon2019/0001)
 
-1回目はカンファレンス前日から1日目のセッションの様子を中心にお伝えします。
+レポートの1回目はカンファレンス前日から1日目のセッションの様子を中心にお伝えします。
 
 ```{toctree}
 :maxdepth: 2

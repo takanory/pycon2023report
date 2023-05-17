@@ -13,7 +13,7 @@
 広くてきれいなソルトレイクシティ空港
 ```
 
-ホテルは吉田さん([@koedoyoshida](https://twitter.com/koedoyoshida/))と同室です。
+ホテルは一緒にPyCon USに参加した吉田さん([@koedoyoshida](https://twitter.com/koedoyoshida/))と同室です。
 チェックインをしたら晩ご飯がてら、吉田さんと近所のPub([Squatters Pub Brewery](https://www.saltlakebrewingco.com/squatters))にビールを飲みに行きました。
 写真は明るいですが、これでも20時ちょっと前です。
 夏時間ということもありますが、感覚がバグります。
