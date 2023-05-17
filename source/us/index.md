@@ -1,6 +1,6 @@
 # PyCon US 2023レポート
 
-酢鈴木たかのり([@takanory](https://twitter.com/takanory))です。
+鈴木たかのり([@takanory](https://twitter.com/takanory))です。
 2023年4月後半にアメリカのソルトレイクシティで開催された、プログラミング言語Pythonの国際カンファレンス「PyCon US 2023」に参加してきたので、その様子をレポートします。
 
 ## PyCon US 2023とは
