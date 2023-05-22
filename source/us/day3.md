@@ -59,6 +59,15 @@ PyCon APAC 2023についての発表
 ## Keynote: Carol Willing
 
 最後のキーノートはCarol Willing（[@WillingCarol](https://twitter.com/WillingCarol)）氏によるトークです。
+Carol氏はPythonのコア開発者であり、PythonのSteering Counsilを3期務めた型でもあります。
+
+このトークではConnect、Communicate、Scaleという3つのキーワードを中心に進められました。
+
+```{figure} images/carol.jpg
+:width: 600
+
+Carol Willing氏
+```
 
 ## Community Service Awards & Python Software Foundation Update
 
