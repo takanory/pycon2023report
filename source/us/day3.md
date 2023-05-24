@@ -21,17 +21,39 @@ PyCon APAC 2023についての発表
 他には[PyZombis](https://pyar.github.io/PyZombis/main/)というゾンビのためのPythonの教材の紹介
 がありました。この中で[Brython](https://brython.info/)というWebブラウザで動くPythonの処理系を使っているようです。Brythonははじめて知りました。
 
-## Keynote: Margaret Mitchell
+## Job FairとPoster Session
 
-* 脚を怪我して小さいスクーターに乗っている(おもしろい
-* 90年代はじめてMS-DSでプログラムを書いたのはecho
-* 90年代中旬はHTMLがはでで、はじめてのHTMLを書いた
-* 90年代後半。webnonkeyで勉強した
-* 2000年からプログラミングをはじめる。はじめての仕事はTCL
-* Pythonはクールに見えた
-* 2011年に画像の説明をするシステムを作った
-* ターニングポイントはMicrosoftでコンピュータービジョンの仕事に就いた
-* 画像に説明を付けるのは目が見えない人の役に立つ
+カンファレンス3日目はランチの前に少し長めに時間をとって、Job FairとPoster Sessionが開催されます。
+Job Fairは企業が集まってそこに仕事をしたい人が話をしに行くイベント、Poster Sessionはポスターを貼りだしてその前で発表やディスカッションをするというものです。
+企業とポスターの一覧は以下のページから確認できます。
+
+* [Job Fair - PyCon US 2023](https://us.pycon.org/2023/expo/job-fair/)
+* [Posters - PyCon US 2023](https://us.pycon.org/2023/schedule/posters/list/) 
+
+Job Fairは企業の担当者と直接話せる機会なので、アメリカを中心に仕事を探している人にはとてもよいイベントだと思います。
+企業担当者によると「今年は去年よりも本気の人が多い。レジュメ（経歴書）を持ってきている人も多い。」とのことです。
+少し前に大企業の人員削減があったので、その影響なのかも知れません。
+
+```{figure} images/jobfair.jpg
+:width: 400
+
+Job Fairの企業リスト
+```
+
+ポスターを見て歩いていると他の参加者から声をかけられました。
+彼ら（Hassan氏、Haque氏）はPyCon JP 2019に5人で発表をしてくれたバングラデシュ出身チームのメンバーです（[2019年の発表](https://pycon.jp/2019/sessions?sessionId=117)）。
+彼らの遠くアメリカの地で再会できたことに、とても驚きました。
+私と寺田さんを加えた4人で立ち話をしていると、PyCon JP 2022で発表してくれたインド出身のGajendra氏にも会うことができました（[2022年の発表](https://2022.pycon.jp/en/timetable?id=X8H3UD)）。
+
+過去にPyCon JPに参加してくれた海外の方と、こんな感じで別の国のPyConで再会できるのも、Pythonでつながる縁だなと思います。
+Hassan氏、Haque氏は「PyCon JPにまた参加したい。お弁当がおいしかった。」と言っていました。
+海外の方の味覚でもPyCon JPのご飯はおいしいんだなと、再認識しました。
+
+```{figure} images/friends.jpg
+:width: 600
+
+バングラデシュのHassan氏、Haque氏とインドのGajendra氏と
+```
 
 ```{admonition} PyLadies Luncheon(昼食会)
 
@@ -61,13 +83,47 @@ PyCon APAC 2023についての発表
 最後のキーノートはCarol Willing（[@WillingCarol](https://twitter.com/WillingCarol)）氏によるトークです。
 Carol氏はPythonのコア開発者であり、PythonのSteering Counsilを3期務めた型でもあります。
 
-このトークではConnect、Communicate、Scaleという3つのキーワードを中心に進められました。
+このキーノートでは「Python: The Poeple's Programming Language（Python：人々のプログラミング言語）」と題して「Connection、Communication、Scale」という3つのキーワードを中心に次の10年に向けた強靱なネットワークの作り方について語られました。
 
 ```{figure} images/carol.jpg
 :width: 600
 
 Carol Willing氏
 ```
+
+10年前の2013年にCarol氏は46歳で、当時はインターネット普及前のPCを使っており、スマートフォンより前にWWWが普及しているところでした。
+当時はソフトウェア開発者の管理をしていたが、意味が無いと思う「技術者に戻ろう」と思ったそうです。
+自分の情熱と興味に従って技術者に戻り、教育と学習必要だと考えたそうです。
+
+Pythonを学び始めたときに一人だと感じていたが、Pythonにはエコシステムがあり、[PyPI](https://pypi.org/)には大量のパッケージがあります。
+Pythonは人々を興味によって結びつけ（Connect）モチベーションを高めます。
+Carol氏は[music21](https://web.mit.edu/music21/)という音楽に関するPythonライブラリを見つけました。
+そして実際に使ってみたコードを見せることを始めたそうです。
+
+実際のネットワークでは接続を監視しますが、同じように人のネットワークも確認が必要だという話がありました。
+オープンソースの貢献者の燃え尽き症候群があるため、疲れていたら休みましょうというメッセージがありました。
+
+コミュニケーションはメッセージをある場所から別の場所に届けることです。
+2016年のGuido氏のメッセージには「プログラミング言語はアイデアを、コンピューターにではなく、他のプログラマーに伝えるためにある。」とあります。
+また、ネットワークはメッセージを流すためにあり、Michael Kennedy氏が[Talk Python To Me Podcast](https://talkpython.fm/)で価値のあるメッセージを流しているそうです。
+Pythonと他の言語とのコミュニケーションの例としては、FastAPIやRust、JavaScriptとの連携が今後増えると語られました。
+
+Pythonの人々のネットワークはクラスターとして世界各地にあると述べられました。
+例として地域のPythonコミュニティ、PyLadies、Django Girsls、コア開発者、カンファレンス主催者などが紹介されました。
+またネットワークをさらに広げるために、[パックマンルール](https://www.ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/)についても語られました。
+パックマンルールとは「立ち話をするときに1人分のスペースを空けておいて参加しやすくする」というルールです。
+
+最後にScaleについて語られます。
+Guido氏が学んだ最も大切なものは「共有すること」と語っています。
+Carol氏は小さなことから初めてスケールしていきましょうと語ります。
+
+Scaleの例としてJupyter Notebookについて語られました。
+2014年にLorena氏はSciPyカンファレンスの基調講演で「Jupyter Notebookは対話的なコンピューティングツールである」と述べました。
+当時はGitHub上に65,000ほどのノートブックがありましたが、現在は1100万以上のノートブックがあります。
+当時はインストールが難しかったため[JupyterHub](https://jupyter.org/hub)、[Binder](https://mybinder.org/)といったプロジェクトでネットワーク上で使えるようになり拡がっていったそうです。
+
+もう1つの例として[PyLadies](https://pyladies.com/)が挙げられました。
+現在はPyLadiesのチャプター（地域ごとの支部）はたくさんあります。
 
 ## Community Service Awards & Python Software Foundation Update
 
