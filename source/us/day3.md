@@ -42,7 +42,7 @@ Job Fairの企業リスト
 
 ポスターを見て歩いていると他の参加者から声をかけられました。
 彼ら（Hassan氏、Haque氏）はPyCon JP 2019に5人で発表をしてくれたバングラデシュ出身チームのメンバーです（[2019年の発表](https://pycon.jp/2019/sessions?sessionId=117)）。
-彼らの遠くアメリカの地で再会できたことに、とても驚きました。
+彼らと遠くアメリカの地で再会できたことに、とても驚きました。
 私と寺田さんを加えた4人で立ち話をしていると、PyCon JP 2022で発表してくれたインド出身のGajendra氏にも会うことができました（[2022年の発表](https://2022.pycon.jp/en/timetable?id=X8H3UD)）。
 
 過去にPyCon JPに参加してくれた海外の方と、こんな感じで別の国のPyConで再会できるのも、Pythonでつながる縁だなと思います。
@@ -98,7 +98,7 @@ Carol氏は当時ソフトウェア開発者の管理をしていたが、その
 ### Connection
 
 Carol氏がPythonを学び始めたときには一人だと感じていました。
-Pythonにはエコシステムがあり[PyPI](https://pypi.org/)には大量のパッケージがあります。
+Pythonにはエコシステムがあり、[PyPI](https://pypi.org/)には大量のパッケージがあります。
 また、Pythonは人々を興味によって結びつけ（Connect）モチベーションを高めます。
 1つの例として、Carol氏は[music21](https://web.mit.edu/music21/)という音楽に関するPythonライブラリを見つけました。
 そして実際に使ってみたコードを周囲に見せるということを始めたそうです。
@@ -116,7 +116,7 @@ Michael氏は[Talk Python To Me](https://talkpython.fm/)というポッドキャ
 興味のある方はぜひ聞いてみてください。
 
 また、Pythonと他の言語とコミュニケーションをとるという話もありました。
-例として、FastAPIでAPI化してフロントエンドとコミュニケーショをとることや、PythonとRustやJavaScriptとの連携が今後増えると語られました。
+例として、FastAPIでAPI化してフロントエンドとコミュニケーションをとることや、PythonとRustやJavaScriptとの連携が今後増えると語られました。
 
 他にも、Pythonの人々のネットワークは世界各地にあると述べられました。
 例として地域のPythonコミュニティ、PyLadies、Django Girsls、コア開発者、カンファレンス主催者グループが紹介されました。

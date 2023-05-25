@@ -11,7 +11,7 @@ PyCon US 2023のスプリントは4月24日(月)〜27日(木)までの4日間開
 
 ## どんなプロジェクトがあるか
 
-スプリント期間中はボードに「どの部屋でどのプロジェクトが開発しているか」が書き出してあります。
+スプリント期間中はボードに「どの部屋でどのプロジェクトが開発をしているか」が書き出してあります。
 参加者はこのボードを見て興味のある部屋を訪れたり、フリースペースで自分の開発を進めたりできます。
 
 ボードを見てみると、以下のようなプロジェクトが参加していることがわかります。
@@ -44,7 +44,7 @@ PyCon US 2023のスプリントは4月24日(月)〜27日(木)までの4日間開
 
 他のissueを見てみましたが、ちょっと短時間では対応できそうな感じのものがなかったため、残念ながらissueの中身を確認するだけで終わってしまいました。
 
-スプリントに参加したときに最初に説明をしてくれたのFabio Pliger氏ですが、名札を見てみると「Creator of PyScript」と書いてあります。
+スプリントに参加したときに最初に説明をしてくれたFabio Pliger氏ですが、名札を見てみると「Creator of PyScript」と書いてあります。
 Fabio氏はPyScriptの作者であり、カンファレンス2日目に筆者もトークを聞きました。
 そこで「PyScriptについて日本語で記事を書いたんですよ」と、さきほどの記事を本人に紹介しました。
 Fabio氏からは「PyScriptを広める活動をしてくれてありがとう」と感謝をされました。
@@ -90,9 +90,10 @@ PyScriptのスプリント参加者
 
 * [PyCon US - YouTube](https://www.youtube.com/channel/UCMjMBMGt0WJQLeluw6qNJuA)
 
-PyCon US 2023のあとは筆者はカリフォルニアに移動しました。
-そして、カリフォルニアのブルワリーのビールを飲みつつ、[LEGOLAND California](https://www.legoland.com/california/)と[Disneyland Park](https://disneyland.disney.go.com/)（主にスターウォーズ）に遊びに行きました。
-興味のある方はTogetterにまとめたので見てみてください。
+PyCon US 2023のあと、筆者はカリフォルニア州のサンディエゴに移動しました。
+そして、カリフォルニアのいくつかのブルワリーでクラフトビールを飲みつつ、[LEGOLAND California](https://www.legoland.com/california/)と[Disneyland Park](https://disneyland.disney.go.com/)（主にスターウォーズ）に遊びに行きました。
+San Diego→Carlsbad→Anaheim→Los Angelesと移動が激しくハードな旅でしたが、こちらもとても楽しい体験でした。
+旅の様子はTogetterにもまとめたので、興味のある方は見てみてください。
 
 * [LEGOLAND CaliforniaからのDisneyland Californiaエクストリームツアー - Togetter](https://togetter.com/li/2135239)
 
