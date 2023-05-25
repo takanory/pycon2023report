@@ -81,7 +81,7 @@ Hassan氏、Haque氏は「PyCon JPにまた参加したい。お弁当がおい�
 ## Keynote: Carol Willing
 
 最後のキーノートはCarol Willing（[@WillingCarol](https://twitter.com/WillingCarol)）氏によるトークです。
-Carol氏はPythonのコア開発者であり、PythonのSteering Counsilを3期務めた型でもあります。
+Carol氏はPythonのコア開発者であり、PythonのSteering Counsilを3期務めた方でもあります。
 
 このキーノートでは「Python: The Poeple's Programming Language（Python：人々のプログラミング言語）」と題して「Connection、Communication、Scale」という3つのキーワードを中心に次の10年に向けた強靱なネットワークの作り方について語られました。
 
@@ -111,7 +111,7 @@ Pythonにはエコシステムがあり、[PyPI](https://pypi.org/)には大量�
 
 コミュニケーション（Communication）はメッセージをある場所から別の場所に届けることです。
 2016年のGuido氏は「プログラミング言語は、アイデアを（コンピューターにではなく）他のプログラマーに伝えるためにある。」という発言をしました。
-また、Pythonの子、ユニティではMichael Kennedy氏がメッセージを流す役割を担っていると語られました。
+また、PythonのコミュニティではMichael Kennedy氏がメッセージを流す役割を担っていると語られました。
 Michael氏は[Talk Python To Me](https://talkpython.fm/)というポッドキャストで価値のあるメッセージを流しているそうです。
 興味のある方はぜひ聞いてみてください。
 
@@ -126,7 +126,7 @@ Michael氏は[Talk Python To Me](https://talkpython.fm/)というポッドキャ
 ### Scale
 
 最後に規模の拡大（Scale）について語られます。
-Guido氏が学んだ最も大切なものは「共有すること」と語っています。
+Guido氏が学んだ最も大切なものは「共有すること」と紹介されました。
 Carol氏は小さなことから初めて大きくして（スケールして）いきましょうと語ります。
 
 Scaleの例としてJupyter Notebookについて語られました（Carol氏はプロジェクトJupyterのSteering Councilでもあります）。
