@@ -1,141 +1,347 @@
 # PyCon Korea 2023
 
-* イベント概要
+鈴木たかのり([@takanory](https://twitter.com/takanory))です。
+2023年8月に韓国のソウルで開催された、プログラミング言語Pythonカンファレンス「PyCon Korea 2023」に参加してきたので、その様子をレポートします。
 
-## 移動
+## PyCon Korea 2023とは
 
-* 20:00過ぎに空港にインチョンに到着
-* immigrationがものすごい人(海外パスポート
-* 
+PyCon Koreaは韓国で開催されるPythonに関するカンファレンスです。
+2022年は一部オフラインでしたが基本はオンライン開催、2023年は久しぶりのフルでのオフライン開催でした。
 
-## 受付
+PyCon Korea 2023のイベント概要は以下の通りです。
 
-* 少し迷った
-* SMSを受け取っているはずだけど受け取れていない。スタッフに助けてもらって受付できた。ありがたい
-* SWAG紹介
+|項目|内容|
+|--|--|
+|URL|<https://2023.pycon.kr/>|
+|日程|チュートリアル、スプリント: 2023年8月11日（金）|
+| | カンファレンス: 2023年8月12日（土）、13日（日）|
+|場所|韓国、ソウル|
+|会場|[Coex](https://www.coexcenter.com/)|
+|参加費|1日 80,000 KRW、2日 140,000 KRW|
 
-## オープニング
+```{figure} images/pyconkr.png
+:width: 600
 
-* なにしゃべってるか当然わからない
+PyCon Korea 2023 Webサイト
+```
 
-## キーノート
+筆者は2016年に韓国で開催されたPyCon APAC 2026 in Korea以来の参加です。
+2016年の様子は以下のレポートを参照してください。
 
-* 昔からPythonを使っている方のようで、Python 1, 2, 3での違いについて紹介しているよう。
-* strとunicode
-* stringメソッド(python 1ではstringの関数だった(知らなかった
-  * upper, translate, join
-* 並行してその当時の韓国のPythonコミュニティの話をしているっぽい
+* [第1回　現地の様子とカンファレンス1日目 ～pandas開発者によるKeynote～ | gihyo.jp](https://gihyo.jp/news/report/01/pycon-apac2016/0001)
+* [第2回　カンファレンス2日目 ～Flask開発者・PyPy開発者によるKeynote～ | gihyo.jp](https://gihyo.jp/news/report/01/pycon-apac2016/0002)
 
-### RustPython
+## 韓国への移動
 
-* RustPythonの紹介
-* ruffはRustPythonのParserがあるからできたのか、なるほど
-* pylyzer: https://github.com/mtshiba/pylyzer
-  * mypy、pyright的なやつのrust実装
-  * 作ってるの日本の人だ! https://twitter.com/s_sbym
-* Seahorse (Beta) | Solana programs in Python https://seahorse-lang.org/
+韓国へは8月11日(金)の夜に移動しました。
+22:20くらいにインチョン国際空港に到着しましたが、海外パスポートの人の入国管理がものすごい行列でした。
+結局、空港の外に出られたのが23:50頃で、バスでソウル市内への移動は時間がかかり疲れていたので、タクシーでホテルに移動しました。
 
-## 自分の発表
 
-* 最初トラブった
-* システムとしてgoogle slideで統一していたが、revealjsだったので個別に対応してもらった
-  * ありがとう
-  * スタッフとシステムの人にもいろいろ協力してもらった
-* 手元のスピーカーノートが確認できなくて積みかけた
-* 発表はなんとか終了、質疑応答も4つくらいできた
-  * nestできる?
-    * 普通にできます。ただあんまりcaseの中にさらにmatchを書くのはないかなーと思う
-  * if文とどっちを使うべき?
-    * 場合による。リテラルパターンみたいなシンプルなものはif文のままでいいと思う
-  * パフォーマンスはどうなっている
-    * パフォーマンスの改善は今後も継続的にやっていくという話があったはず
-  * 複雑なJSONの処理だとcaseのところがすごく長くなりそう
-    * ifとどっちがいいか、実際に書いてみて比較してみるとよいと思う
+```{figure} images/inchon.jpg
+:width: 600
 
-* 終わった後にも何人かと話ができた。日本語ができる人もいてすごい
+インチョン国際空港に到着
+```
 
-### jupyter book
+## カンファレンス1日目
 
-* Jupyter Bookでコンテンツを共有しようという話
-* https://jupyterbook.org/en/stable/start/overview.html
-* スライドの中で動画で実際のページ(scikit-learn等)の例を説明(イメージしやすい
-* ipynbでダウンロードしたり、binder、colabで実行したりできる(へー
-* 設定と目次はymlなんだー
-* build手順、github pagesでの公開方法
+カンファンレンス1日目はCoex（会場）の入り口を間違えて中で少し迷いましたが、無事に会場に着くことができました（Coexはとても広いです）。
 
-### Improving debuggability of complex asyncio applications
+```{figure} images/coex.jpg
+:width: 600
 
-## LT, Closing
+Coex
+```
 
-* 最初にOrganizerからリボンの話
-* PyCon USのをまねした?
-* なんかたくさん作ることになって、それをカットして作るの大変だったらしい
+受付では事前にSMSで送信されたQRコードを使用するそうですが、私は韓国の電話番号を持っていないためそのSMSを受け取れていませんでした。
+スタッフの方に名前を告げて無事に受付できました。
 
-* balpan CLIを作った
+```{figure} images/reception.jpg
+:width: 600
 
-  * コードにTODOコメントを入れる?
-  * tree-sitterってのを使っている?
-* KwonHan
+受付
+```
 
-  * PSF Directorになったよ
-  * アジアはPSFではMinorだよ
-  * PyCon US 2023に行った。PyCon Koreaでの10年を発表した
-  * メールアドレスが下手でメールが来てなかった
-  * 朝スクーター乗ろうとしたけどフンダイのApple Payで決済できなかった→夜の発表になった
-  * 韓国で、アジアで2人めのPSF Directorになったよ
+受付ではグッズを受け取りました。
+IKEAっぽい黒いバッグの中にパンフレット、Tシャツ、うちわ、ステッカーなどが入ってました。
 
-## 飲み会
+```{figure} images/bag.jpg
+:width: 600
 
-* スタッフとスピーカー飲み会に参加
-* チキンとビールの店
-* KwonHan、Younggunも一緒
-* 参加者が減っているという話を聞いた。日本と状況は似ている感じ
-* スポンサーも少ないらしい
+バッグ
+```
 
-## 2日目
+```{figure} images/tshirts.jpg
+:width: 400
 
-* 名札の色が違う
-* 1日ごとのチケットがるので日ごとに受付するスタイル。名札の色が変わる
+Tシャツ
+```
 
-### Pythonで月数百円で社内Slackbotを運営してみた話
+オープニングでイベントが始まります。
+すべて韓国語なので何についてしゃべっているかは全然わかりません。
+写真は過去のPyCon Koreaイベントの様子のようです。
 
-* https://2023.pycon.kr/session/44
-* Flask + Bolt for Pythonでアプリを作成
-* Zappaを使っているらしい
-* AWS API Gateway + Lambda
-* まずはサイコロ機能を作成
-* eventとか使用できるAPI設定とかは私のトークと同じような話をしてるかな
-* Notion APIをたたいてページを検索するスラッシュコマンドを作成
-* Notionから休みの情報を取得。Block Kitを使用してメッセージをいい感じにする例
-* ChatGPTのAPIをたたく機能。async_chatbot_processを使って非同期で実行(へー)
-  * Zappaのasynchronous.taskを使用
+```{figure} images/opening.jpg
+:width: 600
 
-### 오픈소스와 함께 성장하기 (Feat. Django)
+オープニング
+```
 
-* https://2023.pycon.kr/session/41
-* Jordan
-* オープンソースにPRを送ると品質の高いレビューが受けられる
-* テストコード、チケット管理、CI/CD、ドキュメント、コードレビューといった良いプロジェクト運営を知ることができる
-* 普段は経験できないレイヤーについて学ぶことができる。Django ORMへのコントリビュートによってDB、SQLについて深く知る
-* 英語とコミュニケーションスキルが成長する
-* レビューしてくれた人にグローバルのイベントで会えるかもしれない
+### キーノート1: Pythonの歴史に関するトーク
 
-* 最初はすでにあるプロジェクトに参加して貢献することがおすすめ
-* コード全体が大きいときは興味のあるコンポーネントからはじめる
-* 最初の人向けの課題がgithubでラベルが付いているので、そこからはじめる
-* ChatGPTを使ってコードを読む
+* [우리 파이썬이의 꼬꼬마 시절](https://2023.pycon.kr/session/47)
 
-* OSSへのコントリビューションについてのイベントもあるらしい
-* Sprintに参加する
+1日目はオープニングのあとに2本のキーノートがありました。
+スライドも発表言語も残念ながら韓国語です。
+1本目のキーノートはかなり初期からPythonを使っている方のようで、Python1、2、3の違いについて紹介していました。
+
+一例として文字列型(str型)の各種メソッドはPython 2から使えるようになっており、Python 1では`string`モジュールの関数だったということが示されました。
+
+```{figure} images/keynote1.jpg
+:width: 600
+
+キーノート1
+```
+
+他にもstr型とunicode型のことや、過去のPythonと並行して当時の韓国のPythonコミュニティの紹介をしていました。
+韓国でもPyConを開催する前にはミートアップなどが行われていることを知ることができました。
+
+### キーノート2: RustPythonとコミュニティ
+
+* [RustPython, 파이썬 커뮤니티로](https://2023.pycon.kr/session/48)
+
+2本目のキーノートはRustPythonと関連するコミュニティに関するトークです。
+
+[RustPython](https://rustpython.github.io/)はRustで実装されたPythonインタープリターです。
+通常使っているPythonはC言語で書かれたCPythonですが、他にもJython(Java製)、PyPy(Python製)などがあり、同じようにRustで書かれています。
+
+```{figure} images/keynote2.jpg
+:width: 600
+
+キーノート2
+```
+
+Rustで書かれた高速なPythonコードの静的解析ツールに[Ruff](https://beta.ruff.rs/docs/)があります。
+Ruffは、RustPythonによってRuff製のPythonパーサー「[RustPython parser](https://rustpython.github.io/blog/2020/04/02/thing-explainer-parser.html)」を利用しているそうです。
+RustPythonの資産によってRuffが作られたという説明はとても納得しました。
+Ruffについては以下の記事も参考にしてください。
+
+* [新しい静的コード解析ツール「Ruff」をご紹介 | gihyo.jp](https://gihyo.jp/article/2023/03/monthly-python-2303)
+
+別の例として[pylyzer](https://github.com/mtshiba/pylyzer)が紹介されていました。
+pylyzerはRust製のPythonのコード解析、言語サーバーです。
+このツールもRustPython parserを使用しているようです。
+
+### 自身の発表: Introduction to Structural Pattern Matching
+
+* スライド: [Introduction to Structural Pattern Matching](https://slides.takanory.net/slides/20230812pyconkr/)
+
+キーノートの後にランチ休憩を挟んで筆者の発表でした。
+あまり準備に時間がとれなかったのと、現地での機材の確認もあったので、昼ご飯はさくっと食べて発表会場に行きました。
+発表会場はなかなかの広さです。
+キーノートでひと続きになっている5つの部屋を、2部屋(101/102)、1部屋(103)、2部屋(104/105)と分割して使用しています。
+
+```{figure} images/takanory-room.jpg
+:width: 600
+
+発表会場
+```
+
+今回PyCon Korea側では発表資料をGoogleスライドで統一してほしいという要望がありましたが、私が普段使っているスライドは[sphinx-revealjs](https://sphinx-revealjs.readthedocs.io/en/stable/)を使用しておりGoogleスライドに変更するのは困難です。
+そのため、スタッフや配信システム担当の方にもフォローしてもらって、自身のスライドをそのまま仕えあるようになりました。
+ありがたいです。
+
+ただ、私の事前の準備に問題があり、スピーカーノートが参照できずトークの前半はだいぶグダグダになっていしまいました。
+これは非常に反省すべき点です。
+
+発表ではPython 3.10の新機能であるStructural Pattern Matching（構造的パターンマッチ）の言語仕様と使い方を、サンプルコードを交えて紹介しました。
+発表は無事終了し、いくつか質疑応答もできました。
+以下に質疑応答の内容を紹介します。
+
+* 質問: 入れ子にできるか
+* 回答: if文と同様に普通に入れ子にできます。ただ、あまりcaseの中にさらにmatchを書くことはないと思います
+* 質問: if文とどっちを使うべきか
+* 回答: 場合によります。リテラルパターンのようなシンプルなものはif文のままでよいと思います
+* 質問: パフォーマンスはどうなっているのか
+* 回答: Python 3.10の段階では機能がリリースされた段階と認識しています。パフォーマンスの改善は今後も継続的に行われていくという話が、PEP 著者のBrandt Bucker氏からありました
+* 質問: 複雑なJSONを処理するときにcaseのところがすごく長くなりそう
+* 回答: そうなると思います。ただ、if文をネストして書くのとどっちがわかりやすいか、実際に書いてみて比較してみるとよいと思います
+
+発表が終わった後にも引きつづき何人かとこの発表について話ができました。
+この機能に興味を持ってくれて、使い始める人が増えるといいなと思っています。
+
+### ブースの様子
+
+会場の外にはスポンサー企業によるブースやPyCon Koreaのブースがありました。
+企業ブースは参加者がよっていて盛り上がっているようです。
+
+```{figure} images/booth1.jpg
+:width: 600
+
+企業ブース
+```
+
+PyCon Koreaブースではグーズの販売や、スタンプラリーの抽選をしているようです。
+傘、ペン、靴下などさまざまなグッズが売っていました。
+
+```{figure} images/booth2.jpg
+:width: 600
+
+PyCon Koreaブース
+```
 
 ### ライトニングトーク
 
-*
+1日目のライトニングトークです。
+ライトニングトークは1本5分程度の短いトークが連続するセッションです。
 
-### Closing
+PyCon Korea主催者から、名札の下に付けるリボンを作ったLTがありました。
+PyCon USでもあった自分の属性や興味があることを示すリボンです。
+たくさんの種類のリボンを作ることになってカットする作業が大変だったようです。
 
-* aaa
+```{figure} images/ribbon.jpg
+:width: 600
 
-### After Conference
+リボンについてのライトニングトーク
+```
+
+また、KwonHan氏のライトニングトークもありました。
+KwonHan氏はPyCon KRの立ち上げメンバーであり、筆者の以前からの友人です。
+KwonHan氏がPSF（[Pythonソフトウェア財団](https://www.python.org/psf-landing/)）の2023のボードメンバーとなったことや、PyCon US 2023でのライトニングトークのことなどが語られました。
+
+* 参考: [Python Software Foundation News: Announcing the 2023 PSF Board Election Results!](https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-election.html)
+
+
+```{figure} images/kwonhan.jpg
+:width: 600
+
+KwonHan氏
+```
+
+KwonHan氏のPyCon USでのライトニングトークについては以下の記事を参照してださい。
+
+* 参考: [#02 PyCon US 2023 後半のハイライト ―PyScript関連セッションに注目 | gihyo.jp](https://gihyo.jp/article/2023/05/pycon-us2023-002#gh6opS_OFZ)
+
+### 飲み会
+
+カンファンレンス1日目の終了後はスタッフとスピーカーの食事会に参加しました。
+チキンとビールのお店です。
+
+```{figure} images/chicken.jpg
+:width: 600
+
+骨なしチキンとポテト
+```
+
+コロナの影響でリアルイベントに参加者が減っているという話を聞きました。
+状況としては日本と似ているなと感じました。
+
+個人的には「若い人は骨なしチキンが好きなので、今回はこの店になった。年が上の人は骨付きチキンが好き」という話がツボでした。
+確かに私も骨付きチキンの方が好きだな...
+
+## カンファレンス2日目
+
+このカンファレンスは1日券もあるため、両日受付をする必要があります。
+私も受付をしなおして、2日目の名札をもらいました。
+名札の色が違うのでわかりやすいなと思います。リボンも付けてみました。
+
+```{figure} images/badge.jpg
+:width: 600
+
+名札(左が2日目)
+```
+
+### Pythonで安価で社内Slackbotを運営した話
+
+* [Python으로 월 몇 백원으로 사내 슬랙봇 운영해본 이야기](https://2023.pycon.kr/session/44)
+
+Slackbotの運用の話です。
+[Flask](https://flask.palletsprojects.com/)と[Bolt for Python](https://slack.dev/bolt-python/concepts)でアプリを作成し、[Zappa](https://github.com/zappa/Zappa)でサーバーレスアプリケーションとしてAWS API Gateway + Lambda上で動作させているそうです。
+
+```{figure} images/slackbot.jpg
+:width: 600
+
+Slackのワークフロー
+```
+
+まずはrandomモジュールを使用して簡単なサイコロ機能を実装し、そこからボットを拡張していきました。
+Notion APIを叩いてページを検索するコマンドや、Notionページからメンバーの休みの情報を返す機能、非同期でChatGTPのAPIを叩く機能などを実装したそうです。
+
+Slackbotでいろいろ楽しようというトークは私もPyConでしていたので、一方的に親近感を感じるトークでした。
+
+### オープンソースと一緒に成長する話
+
+* [오픈소스와 함께 성장하기 (Feat. Django)](https://2023.pycon.kr/session/41)
+
+前日の飲み会でも同席したJordan氏により発表です。
+自身がDjangoなどのオープンソースに貢献する中で、自分自身も成長していったというトークです。
+オープンソースにPRを送ると品質の高いレビューを受けることで、自身のコード力が上がっていきます。
+また、テストコード、チケット管理、CI/CD、ドキュメント、コードレビューといったよいプロジェクト運営を知ることができます。
+
+```{figure} images/jordan.jpg
+:width: 600
+
+Jordan氏
+```
+
+他にも、普段は経験できないレイヤーについて学ぶ機会があり、例としてDjango ORMへの貢献をするときにDB、SQLについて深く知ることができたそうです。
+また、英語とコミュニケーションスキルが成長するということ、レビューしてくれた人などの関係者にグローバルのイベントで会えるかも知れないということが利点として上げられていました。
+
+また、OSSへの貢献の始め方として以下のような考え方、方法がお薦めされていました。
+
+* 最初は、すでに存在するプロジェクトに参加して貢献をはじめる
+* コード全体が大きいときは、興味のあるコンポーネントからはじめる
+* GitHubの課題に「初心者向けの」のラベルが付いているものがある場合、その課題から着手する
+* コードを読むときにChatGPTなどを使用する
+
+そして最後に、韓国で開催されているOSSへの貢献をはじめるイベントや、PyConのスプリントに参加することがお勧めされていました。
+
+オープンソースへの貢献とそれが自身の成長につながるという、とてもよい発表だなと思いました。
+
+### ライトニングトーク
+
+カンファレンス2日目もライトニングトークです。以下のような発表がありました。
+
+```{figure} images/golang.jpg
+:width: 600
+
+ライトニングトーク
+```
+
+* Golang Koreaの紹介。2023年8月に[GopherCon Korea](https://gophercon.kr/en)が開催されたそうです。これは韓国で最初のGoに関する大規模イベントとのこと
+* 大学に通いながらフリーランサーをしている方の発表。Pythonを中学生に教えたり、自らPythonを学びながら楽しんでお金を稼ぐというトーク
+* めっちゃハイテンションで内容がウケている人がいました。韓国語なので当然なにもわからず。あとで動画を字幕付きで見てみたい
+* Circuit Pythonでハードウェアを作る話
+* 過去のPyCon Koreaにボランティアとして参加してきた話。一人での参加だが知り合いが増えた
+
+### クロージング
+
+イベントの最後はクロージングです。
+イベントに関連する数字が紹介されていました。
+1458日(4年)ぶりの現地開催のイベントで、参加者は1,100名以上、43名のスピーカーなどの数値が紹介されました。
+
+```{figure} images/closing.jpg
+:width: 600
+
+クロージングのスライド
+```
+
+クロージングのあとはスタッフなどの記念撮影が行われていました。
+私も最後の方に韓国の友人であるKwonHan氏、Younggun氏と一緒に記念撮影をしました。
+2人とはPyCon US 2023でも一緒に参加し、おそらく東京で開催されるPyCon APAC 2023でも再会できると思います。
+また会いましょう！
+
+```{figure} images/korean-friends.jpg
+:width: 600
+
+KwonHan氏（左）、Younggun氏と
+```
+
+### カンファレンス打ち上げ
 
 * aa
+
+## まとめ
+
+(まとめを書く)
