@@ -24,9 +24,13 @@ PyCon Hong Kong 2023 Webサイト
 
 筆者は今回が初めてのPyCon HKへの参加であり、香港へ行くのも初めてです。
 
-## 香港への移動
+## カンファレンス前日まで
 
 今回は飛行機の関係で11月9日（木）に移動しました。
+ここではカンファレンス前の様子を軽く紹介します。
+
+### 香港への移動
+
 初めて行く香港では、空港でOctopusカードというsuicaのような交通カードを購入し、Airport Expressと地下鉄（MTR）を乗り継いで、スムーズにホテルに到着することができました。
 
 ```{figure} images/octopus.jpg
@@ -54,6 +58,37 @@ Octopusカードの自動販売機
 
 蔥油雞扒
 ```
+
+### Speakers Dinner
+
+カンファレンスの前日11月10日（金）の夜には、スピーカーを招待してのディナーがありました。
+[Yat Lung Heen](https://www.facebook.com/YATLUNGHEEN/)というお店です。
+
+最初に主催者のSammyとCalvinからあいさつがあり、2つのテーブルに分かれて楽しく会話をしならがらおいしい中華料理を楽しみました。
+
+```{figure} images/speakers-dinner.jpg
+:width: 600
+
+主催者あいさつ
+```
+
+```{figure} images/dinner1.jpg
+:width: 600
+
+筆者のいたテーブル
+```
+
+```{figure} images/dinner2.jpg
+:width: 600
+
+もう1つのテーブル
+```
+
+食べきれない量の中華料理が出てきて、あまった料理は持ち帰り用に詰めてもらっていました。
+これって中華料理あるあるなんですかね（台湾でもそんな感じだった）。
+
+Dinnerのあとは一緒にビールを飲んでくれる人がいなかったので、腹ごなしがてら30分歩いて
+[Hong Kong Island Taphouse ](https://www.facebook.com/HKIslandTaphouse/)を訪れ、香港のクラフトビールを軽く飲んでから帰りました。
 
 ## Opening
 
