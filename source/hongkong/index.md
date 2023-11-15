@@ -90,13 +90,36 @@ Octopusカードの自動販売機
 Dinnerのあとは一緒にビールを飲んでくれる人がいなかったので、腹ごなしがてら30分歩いて
 [Hong Kong Island Taphouse ](https://www.facebook.com/HKIslandTaphouse/)を訪れ、香港のクラフトビールを軽く飲んでから帰りました。
 
-## Opening
+## PyCon Hong Kong 2023
 
-* Sammy
-* スポンサー詳細
-* 参加者は約200名
+次の日の11月11日(土)がカンファレンス当日です。
+MRTでQuarry Bay駅まで行ってから徒歩です。
+8階がメインとなるホールとブースがある会場で、10階にTrack 2の部屋があります。
 
-## maaya
+### オープニング
+
+最初はSammy氏によるオープニングです。
+今年はWebサイトを見てもわかるとおり、マージャンがデザインのテーマとなっています。
+スポンサー紹介、オーガナイザー紹介などが行われました。
+
+```{figure} images/opening.jpg
+:width: 600
+
+オープニング
+```
+
+続いてプログラム担当のScotty氏よりプログラムの概要が紹介され、そのあとに写真撮影が行われました。
+オープニング直後に写真撮影って珍しいなと思いましたが、ホールの座席に詰めて座って集合写真が撮られました。
+
+### キーノート:  Maaya Ishida
+
+オープニングのあとのキーノートは2つの部屋で行われ、私は友人でもあるMaaya Ishidaさん（[@maaya8585](https://twitter.com/maaya8585/)）のキーノートに参加しました。
+
+```{figure} images/maaya.jpg
+:width: 600
+
+Maaya Ishida氏
+```
 
 * PyLadiesの紹介
 * 世界中にたくさんあるよ
