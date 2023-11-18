@@ -157,6 +157,7 @@ PyLadies Tokyoは女性が一般のITコミュニティに参加する、最初�
 この発表をきっかけに、香港をはじめ各国の女性エンジニアと会話ができてとてもよい経験になりました。
 ```
 
+
 ### Automate the Boring Stuff with Slackbot(ver.2) 
 
 * トーク概要: <https://pycon.hk/2023/automate-the-boring-stuff-with-slackbotver-2/>
@@ -180,6 +181,19 @@ PyLadies Tokyoは女性が一般のITコミュニティに参加する、最初�
 * A: ChatGPTのAPIがあるので、ここに書いてある例と同様につなげることは可能。ただし、SlackがオフィシャルでGPT対応などをすると思います
 * Q: Slack SDKを使っていますか？
 * A: Slackが提供する[Slack SDK](https://pypi.org/project/slack-sdk/)と[Bolt for Python](https://pypi.org/project/slack-bolt/)というSlackが提供するSlackアプリを作るためのフレームワークを使っています
+
+### PyCon APACブース
+
+PyConなどのカンファレンスではスポンサーがブースを出していますが、PyCon Hong Kongではコミュニティブースとして[PyCon APAC](https://pycon.asia/)ブースを出させてもらいました。
+ブースでは直前に開催されたPyCon APAC 2023グッズ（Tシャツ、トートバッグ、タオル、ステッカー）を持っていきましたが、あっという間になくなりました。
+
+アジアの各国でPyConが開催されていることや、PyCon APAC 2024がインドネシアで開催されることなどが多少でもアピールできたかなと思います。
+
+```{figure} images/booth.jpg
+:width: 600
+
+PyCon APACブース
+```
 
 ### PyScript: Empowering Rich Python Applications in the Browser
 
