@@ -48,7 +48,7 @@ Octopusカードの自動販売機
 漢字のメニュー
 ```
 
-このメニューで「D」を指さしして頼んだんですが、予想通りネギと鶏肉が出てきました。
+このメニューで「D」を指さして頼んだんですが、予想通りネギと鶏肉が出てきました。
 この料理で48 HKDですが、現在は香港の物価高と円安もあり、1 HKDは約20円となっています。
 「これで約1,000円か...」と思いながら食べました。
 味は想定通りといった感じです。
@@ -64,7 +64,7 @@ Octopusカードの自動販売機
 カンファレンスの前日11月10日（金）の夜には、スピーカーを招待してのディナーがありました。
 [Yat Lung Heen](https://www.facebook.com/YATLUNGHEEN/)というお店です。
 
-最初に主催者のSammyとCalvinからあいさつがあり、2つのテーブルに分かれて楽しく会話をしならがらおいしい中華料理を楽しみました。
+最初に主催者のSammyとCalvinからあいさつがあり、2つのテーブルに分かれて楽しく会話をしながらおいしい中華料理を楽しみました。
 
 ```{figure} images/speakers-dinner.jpg
 :width: 600
@@ -129,10 +129,10 @@ Maaya Ishida氏
 続いてMaayaさんが主催をしている[PyLadies Tokyo](http://tokyo.pyladies.com/)についての紹介がありました。
 2014年9月に発足し、そのきっかけは1人の女性PythonistaがPyCon JPでポスターセッションを実施したことがきっかけでした。
 コロナ禍でオンラインイベント中心となったが、最近は現地開催のイベントを増やしているとのことです。
-また、9年間毎月イベントは開催しているそうです（すごいですね！）。
+また、9年間毎月イベントを開催しているそうです（すごいですね！）。
 
 PyLadies Tokyoは女性が一般のITコミュニティに参加する、最初のステップになればと思っているとのことです。
-日本にはPyLadies TokyoだけでなくKyoto、Okinawaもあること、それらのメンバーが集うPyLadies JapanのSlackにはいろいろなチャンネルがって交流しているという話がありました。
+日本にはPyLadies TokyoだけでなくKyoto、Okinawaもあること、それらのメンバーが集うPyLadies JapanのSlackにはいろいろなチャンネルがあって交流しているという話がありました。
 また[PyLadies Caravan](http://tokyo.pyladies.com/caravan/)という各地域のPyLadiesとオフラインで交流するイベントも紹介されていました。
 
 トークの後半では「自分たちの思い」として以下の3点が語られました。
@@ -164,7 +164,7 @@ PyLadies Tokyoは女性が一般のITコミュニティに参加する、最初�
 * スライド: <https://slides.takanory.net/slides/20231111pyconhk/>
 
 筆者の発表です。
-「Automate the Boring Stuff with Slackbot (ver. 2)」と題して、Slack用にbotを作っていろいろいな作業を楽にしよう！というトークをしました。
+「Automate the Boring Stuff with Slackbot (ver. 2)」と題して、Slack用にbotを作ってさまざまな作業を楽にしよう！というトークをしました。
 発表時間が30分で前半をちょっとていねいにしゃべりすぎたようで少し時間が足りなかったです。
 途中を少し飛ばしながら、なんとか最後は時間内に発表を終えることができました。
 
@@ -188,7 +188,7 @@ PyLadies Tokyoは女性が一般のITコミュニティに参加する、最初�
 
 Anacondaに所属するSophia Yang氏による[PyScript](https://pyscript.net/)に関する発表です。
 PyScriptはWebブラウザ上でPythonが実行できるフレームワークです。
-PyCon US 2022にAnacondaのCEOであるPeter Wang氏によって発表されました。
+PyCon US 2022でAnacondaのCEOであるPeter Wang氏によって発表されました。
 
 ```{figure} images/sophia.jpg
 :width: 600
@@ -199,7 +199,7 @@ Sophia Yang氏
 簡単なhello worldの書き方や、イベントハンドラーの指定方法など、基本的なPyScriptでのプログラムの書き方について説明がありました。
 PyScriptを使うとWebブラウザ上でPythonが動作するので、PCにPythonをインストールする必要が無く、デプロイもHTMLを配置するだけで簡単だということがメリットとして語られました。
 そのあとはデモとして、scikit-learnでのクラスタリング、スターウォーズの出演者の関係をd3.jsで表現、[Pyxel](https://github.com/kitao/pyxel)を使ったゲームといった例で、PyScriptでできることを伝えていました。
-Pyxelが動くのは個人的にびっくりしました。
+Pyxelが動くのには個人的にびっくりしました。
 
 最後に<https://pyscript.com/>にサインアップしてPyScriptのコードを書いてほしいということと、[PyScriptのdiscord](https://discord.gg/HxvBtukrg2)に参加してほしいと伝えていました。
 
@@ -228,10 +228,10 @@ Jon Gaul氏
 このトークではどのようにマモノスイーパーをPythonで自動的に解くのか、そのステップが説明されました。
 最初に[MSS](https://python-mss.readthedocs.io/index.html)というライブラリで画面のスクリーンショットを撮り、それを[OpenCV](https://opencv.org/)で画像処理をします。
 画像処理したデータを元にマス目を認識し、各マス目をデータ化して計算し、安全なマスをクリックしていくということを繰り返します。
-クリック処理には[PyAutoGUI](https://github.com/asweigart/pyautogui)を仕様したとのことです。
+クリック処理には[PyAutoGUI](https://github.com/asweigart/pyautogui)を使用たとのことです。
 
 問題点としては、もしも画面の構成が変更されると、画面をデータ化する部分やクリックする処理がすべて書き直しとなります。
-このあたりはWebスクレイピングにも通じるところがあると思いました。
+このあたりはWebスクレイピングにも通じるところがあると思います。
 
 ゲームを自動的に解くという試みはなかなか面白いなと思いました。
 また、このあと実際に手でマモノスイーパーを解いてみましたが、なかなか面白い（そして難しい）という感想をJonさんに伝えました。
