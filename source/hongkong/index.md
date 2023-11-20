@@ -289,13 +289,13 @@ PyCon HKのオーガナイザーとボランティアのみなさんにより、
 ```{figure} images/kaki1.jpg
 :width: 600
 
-居酒屋っぽいメニュー
+PyCon Hong Kong参加者たちと
 ```
 
 ```{figure} images/kaki2.jpg
 :width: 600
 
-居酒屋っぽいメニュー
+筆者、Sammy氏、まーや氏、Cheuk氏ほか参加者と
 ```
 
 パーティーのあとはCheuk氏やまーや氏などと一緒に[YARDLEYS CAFE・BISTRO・BARS](https://www.yardleybrothers.hk/visit-us)で二次会ビールを楽しみました。
@@ -310,10 +310,12 @@ PyCon Hong Kong 2023レポートは以上です。
 筆者がPyCon JP Associationとして行っているYouTubeライブ、[PyCon JP TV](https://tv.pycon.jp/)でも12月1日の回でPyCon Hong Kong 2023について紹介する予定です。
 もしよかったらご視聴ください。
 
-* TODO: youtube埋め込み
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8d9rg6ul2w8?si=JUAI4f_vMjNbkC8u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 PyCon Hong Kongの前後は飛行機の都合で1日観光ができたので、香港の街を散歩したり、LEGO Storeに行ったり、ビールを飲んだり、フェリーに乗ったり、エッグタルトを食べたり、飲茶を食べたりしました。
 Victoria Peakに行けなかったことが心残りです。
+
+さて、来年はどこのPyConに行こうかなぁ。
 
 ```{figure} images/hongkong.jpg
 :width: 600
