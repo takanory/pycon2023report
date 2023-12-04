@@ -52,6 +52,8 @@ MCはJDLAのシバタアキラさんとPyCon JP AssociationのJonasさんです�
 
 * [GuidoさんにQ&A](https://docs.google.com/presentation/d/13jBeDL0cHRB9VP8c8kYeMTw323UgxVV1r4rdlecsYNk/edit)
 
+(TODO: いくつかの質問と回答を載せる)
+
 ### Guidoさんに活動を見てもらう
 
 2番目は「Guidoさんに活動を見てもらう」のコーナーです。
@@ -73,6 +75,8 @@ MCは[PyLadies Tokyo](http://tokyo.pyladies.com/)のなつこさんとまーや�
 
 ここでは、○○と○○を紹介します。
 
+(TODO: 2つくらい発表をピックアップして内容を載せる)
+
 ### GuidoさんにライブQ&A
 
 最後のコーナーは「GuidoさんにライブQ&A」です。
@@ -82,4 +86,11 @@ MCはふたたびシバタさんとJonasさんです。
 
 いくつかの質問とその回答を紹介します。
 
+(TODO: いくつかの質問と回答を載せる)
+
 ## 終わりに
+
+* いろんな人の協力でイベントが成功した。関係者皆さん、とくにGuidoさんに感謝。
+* イベント全編や写真は公開予定なので、後日このレポートも更新するし、[PyCon JP Blog](https://pyconjp.blogspot.com/)でもお知らせ予定
+* PyCon JP TVでも簡単に紹介したので見てね
+* PyCon US 2024でGuidoさんに会わないと。さすがにもう忘れてないはず!!
