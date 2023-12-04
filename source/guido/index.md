@@ -43,8 +43,43 @@ NEC C&C財団は**C&C賞**という情報処理技術などに貢献した人の
 
 ### GuidoさんにQ&A
 
+「GuidoさんにQ&A」のコーナーでは、事前に参加者からGuidoさんに聞きたいことをフォームで集め、そのうちのいくつかにその場で回答してもらいました。
+MCはJDLAのシバタアキラさんとPyCon JP AssociationのJonasさんです。
+
+質問に使用したスライドは以下のURLで公開しています。
+全部で7つの質問をしました。質問を投稿してくれたみなさん、ありがとうございます。
+ここではいくつかの質問とその回答を紹介します。
+
+* [GuidoさんにQ&A](https://docs.google.com/presentation/d/13jBeDL0cHRB9VP8c8kYeMTw323UgxVV1r4rdlecsYNk/edit)
+
 ### Guidoさんに活動を見てもらう
 
+2番目は「Guidoさんに活動を見てもらう」のコーナーです。
+ここでは、Pythonに関連する自身が関わっている活動を、3分の短い英語プレゼン（ライトニングトーク）で発表し、Guidoさんから感想などのコメントをもらうというものです。
+MCは[PyLadies Tokyo](http://tokyo.pyladies.com/)のなつこさんとまーやさんです。
+
+以下の6名が発表をしてくれました。ありがとうございます。
+
+* CuPy / Kenichi Maehashi
+* Active learning to reduce annotation effort / Pieter Blok
+* Python as a tool to reverse-engineer hardware / Takumi
+* sphinx-new-tab-link / nikkie
+* Control Model Train with Python! / Naoki Nakanishi
+* My contributions to `comtypes` / Jun Komoda
+
+なお、発表資料は以下のconnpassページですべて公開されています。
+
+* [Guido氏インタラクティブ記念講演会 PyCon JP枠 - Media List - connpass](https://pyconjp.connpass.com/event/301716/presentation/)
+
+ここでは、○○と○○を紹介します。
+
 ### GuidoさんにライブQ&A
+
+最後のコーナーは「GuidoさんにライブQ&A」です。
+ここでは、[slido](https://www.slido.com/)を使って、来場者からその場で集めた質問に対してGuidoさんに回答してもらいます。
+「質問が集まらなかったらどうしよう」と運営スタッフは心配していましたが、40個を超える質問があり、逆にどの質問をするか選ぶのが大変でした。
+MCはふたたびシバタさんとJonasさんです。
+
+いくつかの質問とその回答を紹介します。
 
 ## 終わりに
