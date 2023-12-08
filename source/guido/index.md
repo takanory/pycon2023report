@@ -165,7 +165,9 @@ Guidoさんからは「農業以外の多くの分野に応用できそう。コ
 
 ### My contributions to `comtypes` / Jun Komoda
 
-2つ目に紹介するのは、Jun Komodaさんによる[compytes](https://pypi.org/project/comtypes/)というライブラリへの貢献についての発表です。
+2つ目に紹介するのは、Jun Komodaさんによる**compytes**
+
+* [enthought/comtypes: A pure Python, lightweight COM client and server framework, based on the ctypes Python FFI package.](https://github.com/enthought/comtypes)
 
 ```{figure} images/komoda.jpg
 :width: 600
