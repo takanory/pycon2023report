@@ -112,7 +112,8 @@ Q&Aの様子
 ## Guidoさんに活動を見てもらう
 
 2番目は「Guidoさんに活動を見てもらう」のコーナーです。
-ここでは、Pythonに関連する自身が関わっている活動を、3分の短い英語プレゼン（ライトニングトーク）で発表し、Guidoさんから感想などのコメントをもらうというものです。
+ここでは、Pythonに関連する自身が関わっている活動を、3分の短い英語プレゼン（ライトニングトーク）で発表してもらいます。
+そして、各発表後にGuidoさんから感想などのコメントをもらうというものです。
 MCは[PyLadies Tokyo](http://tokyo.pyladies.com/)のなつこさんとまーやさんです。
 
 ```{figure} images/pyladies.jpg
@@ -138,15 +139,33 @@ MCの2人
 
 ### Active learning to reduce annotation effort / Pieter Blok
 
+1つ目に紹介するのは、東京大学の研究室に所属するPieter Blokさんによる発表です。
+
 ```{figure} images/pieter.jpg
 :width: 600
 
 Pieter Blokさん
 ```
 
+自身が研究で行っている、ディープラーニングのためのアノテーションについてです。
+画像のアノテーションには時間がかかり、農業の分野で画像にアノテーションするためには専門的な知識も必要です。
+そこで、Monte Carlo dropoutという手法を用いて、不確実性の高い画像を抽出し、その画像を再度トレーニングに使用することで、アノテーションが効率的に行われるようになったそうです。
 
+コードは以下のリポジトリにあります。
+
+* [pieterblok/maskal: Active learning for Mask R-CNN in Detectron2](https://github.com/pieterblok/maskal)
+
+Guidoさんからは「農業以外の多くの分野に応用できそう。コードをオープンソース化していることはとても良いことだ。」というコメントがありました。
+
+```{figure} images/guido2.jpg
+:width: 600
+
+プレゼンを見てコメントするGuidoさん
+```
 
 ### My contributions to `comtypes` / Jun Komoda
+
+2つ目に紹介するのは、Jun Komodaさんによる[compytes](https://pypi.org/project/comtypes/)というライブラリへの貢献についての発表です。
 
 ```{figure} images/komoda.jpg
 :width: 600
@@ -154,11 +173,15 @@ Pieter Blokさん
 Jun Komodaさん
 ```
 
-```{figure} images/guido2.jpg
-:width: 600
+comtypesは軽量なPython用のCOM用のパッケージです。
+[WindowsのCOM](https://learn.microsoft.com/ja-jp/windows/win32/com/component-object-model--com--portal)とpure Pythonでやりとりするための機能を提供します。
 
-プレゼンを見てコメントするGuidoさん
-```
+Komodaさんはこのライブラリに静的型付け導入するように貢献をしています。
+この貢献により、comtypesを使用したプログラミングで動的に生成されたモジュールに対して型アノテーションの情報が付加されるため、コーディング時にエディターがメソッドやプロパティの一覧を表示できるようになったそうです。
+
+comtypesは現在もPython 2.7をサポートしており、今後はPython 2対応を削除してコードをよりモダンにしていきたいとのことでした。
+
+Guidoさんからは「Python 2.7は過去の遺産なので、Python 2.7対応の削除に取り組んでいくことを嬉しく思います。型アノテーションがあることでエディターで型情報が確認できるのは便利ですね。」といったコメントがありました。
 
 ## GuidoさんにライブQ&A
 
