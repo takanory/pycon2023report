@@ -37,6 +37,10 @@ NEC C&C財団は**C&C賞**という情報処理技術などに貢献した人の
 
 * [Guido meetup | Flickr](https://www.flickr.com/photos/pyconjp/albums/72177720313145702/with/53376422038)
 
+また、当日のX(Twitter)への投稿をTogetterでまとめました。
+
+* [Python開発者 Guido van Rossum氏 インタラクティブ記念講演会 - Togetter](https://togetter.com/li/2272915)
+
 ## イベントタイムテーブル
 
 イベントはざっくり以下のようなタイムテーブルで開催しました。
