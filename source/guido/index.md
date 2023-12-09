@@ -33,6 +33,10 @@ NEC C&C財団は**C&C賞**という情報処理技術などに貢献した人の
 イベント内容を検討する段階で日本ディープラーニング協会（JDLA）事務局の大谷さんから、PyCon JP Association代表理事の筆者に相談が来ました。
 その後、打ち合わせで方針を決め、筆者含むPyCon JPコミュニティが中心となってイベントを運営して、本イベント「インタラクティブ記念講演会」が開催されました。
 
+なお、イベントの写真は以下のPyCon JP AssociationのFlickrで公開済みです。
+
+* [Guido meetup | Flickr](https://www.flickr.com/photos/pyconjp/albums/72177720313145702/with/53376422038)
+
 ## イベントタイムテーブル
 
 イベントはざっくり以下のようなタイムテーブルで開催しました。
@@ -263,17 +267,67 @@ Live Q&A
 こうして1.5時間のイベントは無事終了しました。
 終了後は多数の参加者が1列になって、順番にGuidoさんと写真を撮ったり、サインをもらったり、会話を交わして交流をしていました。
 
-## 運営裏話
+## まとめ・運営裏話
 
-* ステッカー作ったよ
-* あとなにかなぁ
+イベント全体を通して、Guidoさんはそれぞれの質問や発表に対して、真摯にときにはユーモアも交えて回答してくれていました。
+Guidoさんと会ったことがないスタッフは「厳しい人だったり気難しい人なんじゃないか？」と気構えていたようですが、そんなことはまったくなく、とてもフレンドリーで優しい人だなとあらためて認識しました。
+また、本当にPythonに関わる人たちのコミュニティが大好きなんだな、とも感じました。
+
+運営裏話としては、今回は準備期間が短かったこともあり、基本的なだんどりは筆者の方ですべてまとめ、こういうイメージでやりたいということをMCに伝えて推進するという形をとりました。
+結果として、ほぼほぼイメージした通りのイベントが作れたかなと思っています。
+イベント後にGuidoさんにこのイベントの感想をきいたときに「Well organized event（よくまとまったイベント）」というコメントをもらいました。
+私は「なぜなら私たち主催者ですからね」と答えておきました。
+その様子は[PyCon JP TV](https://tv.pycon.jp/)として録画していたので、後日PyCon JPのYoutubeチャンネルで公開予定です。
+また、イベント全編も公開予定です。
+
+* 参考：[PyCon JP TV - YouTube](https://www.youtube.com/playlist?list=PLMkWB0UjwFGnmt4FKkJAP8x17-br80l2Y)
+
+```{figure} images/guido-interview.jpg
+:width: 600
+
+PyCon JP TVでのGuidoさんへのインタビュー
+```
+
+また、せっかくのイベント開催なのでステッカーを作って来場者に配りました。
+私がデザイナーのnanaさんに無茶振りで「こういう感じのイメージがいいんじゃない？」と伝えていました
+
+```{figure} images/sticker-discuss.png
+:width: 600
+
+ステッカーの図案に関するディスカッション
+```
+
+最終にnanaさんがいい感じにデザインにまとめあげてくれました。
+かわいいステッカーになったと思います。ありがとうございました！！
+
+
+```{figure} images/sticker.jpg
+:width: 600
+
+イベントステッカー
+```
+
+また、今回は結構運営準備をがんばったので、具体的にどういうことをやったかを後日[PyCon JP Blog](https://pyconjp.blogspot.com/)に書こうと思っています。
 
 ## 終わりに
 
-* いろんな人の協力でイベントが成功した。関係者皆さん、とくにGuidoさんに感謝。
-* イベント全編や写真は公開予定なので、後日このレポートも更新するし、[PyCon JP Blog](https://pyconjp.blogspot.com/)でもお知らせ予定
-* PyCon JP TVでも簡単に紹介したので見てね
-* PyCon US 2024でGuidoさんに会わないと。さすがにもう忘れてないはず!!
+最初にJDLAの大谷さんに声をかけてもらってから、PyCon JP Associationの理事やPyCon JP関連のメンバー、JDLA、東大AIセンターなど関係者のみなさんのおかげで成功しました。
+本イベント関係者のみなさん、そして出ずっぱりで素敵なコメントをしてくれたGuidoさんに感謝します。
+
+イベントの写真はすでにFlickrで公開済みです。イベント全編の動画も後日公開予定です。
+公開したらこのレポートを更新し、[PyCon JP Blog](https://pyconjp.blogspot.com/)でもお知らせする予定です。
+
+* [Guido meetup | Flickr](https://www.flickr.com/photos/pyconjp/albums/72177720313145702/with/53376422038)
+
+本イベントの感想を簡単にPyCon JP TVでも紹介しました。
+以下の動画の46:30頃から15分ほど触れていますので、もしよかったら見てください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8d9rg6ul2w8?si=uphYnOHoX5mg7u0U&amp;start=2790" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+今回さすがにGuidoさんは筆者のことは覚えてくれたとお
+
+これで、次は[PyCon US 2024](https://us.pycon.org/2024/)に行ってでGuidoさんに再会したいと思います。
+さすがに筆者のことは覚えてくれていると思いたい！！
 
 ```{figure} images/party.jpg
 :width: 400
