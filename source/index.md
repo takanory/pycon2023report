@@ -7,6 +7,7 @@
 us/index
 korea/index
 hongkong/index
+guido/index
 ```
 
 ## 参考
