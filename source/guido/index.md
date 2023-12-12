@@ -33,32 +33,37 @@ NEC C&C財団は**C&C賞**という情報処理技術などに貢献した人の
 イベント内容を検討する段階で日本ディープラーニング協会（JDLA）事務局の大谷さんから、PyCon JP Association代表理事の筆者に相談が来ました。
 その後、打ち合わせで方針を決め、筆者含むPyCon JPコミュニティが中心となってイベントを運営して、本イベント「インタラクティブ記念講演会」が開催されました。
 
-なお、イベントの写真は以下のPyCon JP AssociationのFlickrで公開済みです。
+### イベントの記録
+
+なお、イベントの写真と動画は、PyCon JP AssociationのFlickrとYouTubeで公開してあります。
 
 * [Guido meetup | Flickr](https://www.flickr.com/photos/pyconjp/albums/72177720313145702/with/53376422038)
 
-また、当日のX(Twitter)への投稿をTogetterでまとめました。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aaZuEPmHiQY?si=JfeSXczR3FiEY-pC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+また、当日のX（Twitter）への投稿をTogetterでまとめました。
 
 * [Python開発者 Guido van Rossum氏 インタラクティブ記念講演会 - Togetter](https://togetter.com/li/2272915)
 
-## イベントタイムテーブル
+### イベントタイムテーブル
 
 イベントはざっくり以下のようなタイムテーブルで開催しました。
 
 |時間|内容|
 |--|--|
 |14:30|開場・受付|
-|15:00|開会あいさつ、**GuidoさんにQ&A**、休憩|
+|15:00|開会あいさつ：矢入健久教授（東京大学 AIセンター）|
+|15:05|**GuidoさんにQ&A**、休憩|
 |15:45|**Guidoさんに活動を見てもらう**、休憩|
 |16:20|**GuidoさんにライブQ&A**|
-|16:30|閉会あいさつ、記念撮影|
-|16:40|フリータイム|
+|16:30|閉会あいさつ：岡崎直観教授（東京工業大学、JDLA理事）|
+|16:35|記念撮影、フリータイム|
 
 本レポートではメインコンテンツである、3つの「Guidoさんに○○」について簡単にレポートします。
 
 ## GuidoさんにQ&A
 
-「GuidoさんにQ&A」のコーナーでは、事前に参加者からGuidoさんに聞きたいことをフォームで集め、そのうちのいくつかにその場で回答してもらいました。
+「GuidoさんにQ&A」のコーナーでは、質問を参加者から事前にフォームで集め、そのうちいくつかの質問をピックアップし、その場でGuidoさんに回答してもらいました。
 MCはJDLAのシバタアキラさんとPyCon JP AssociationのJonasさんです。
 
 ```{figure} images/qanda.jpg
@@ -318,18 +323,13 @@ PyCon JP TVでのGuidoさんへのインタビュー
 最初にJDLAの大谷さんに声をかけてもらってから、PyCon JP Associationの理事やPyCon JP関連のメンバー、JDLA、東大AIセンターなど関係者のみなさんのおかげで成功しました。
 本イベント関係者のみなさん、そして出ずっぱりで素敵なコメントをしてくれたGuidoさんに感謝します。
 
-イベントの写真はすでにFlickrで公開済みです。イベント全編の動画も後日公開予定です。
-公開したらこのレポートを更新し、[PyCon JP Blog](https://pyconjp.blogspot.com/)でもお知らせする予定です。
-
-* [Guido meetup | Flickr](https://www.flickr.com/photos/pyconjp/albums/72177720313145702/with/53376422038)
-
 本イベントの感想を簡単にPyCon JP TVでも紹介しました。
 以下の動画の46:30頃から15分ほど触れていますので、もしよかったら見てください。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8d9rg6ul2w8?si=uphYnOHoX5mg7u0U&amp;start=2790" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8d9rg6ul2w8?si=ll0y5_x2za4XJ78a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-次は[PyCon US 2024](https://us.pycon.org/2024/)に参加して、Guidoさんと再会したいと思います。
-さすがに筆者のことは覚えてくれていると思いたい！！
+筆者としては、来年開催される[PyCon US 2024](https://us.pycon.org/2024/)に参加して、Guidoさんと再会したいと思っています。
+さすがに私のことは覚えてくれていると思いたい！！
 
 ```{figure} images/party.jpg
 :width: 400
